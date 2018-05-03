@@ -44,4 +44,5 @@ ionic cordova plugin rm cordova-plugin-selfuninstall
 ## License ##
 
 This software is released under the [MIT License].
+
 Copyright (c) 2018 manish29ify
