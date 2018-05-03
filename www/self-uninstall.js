@@ -27,8 +27,8 @@
 var exec    = require('cordova/exec');
 
 /**
- * Android: activates the automatic start of your app
- *           after the reboot of the device
+ * Android: self uninstall of your app
+ *           
  *
  * macOS: N/A.
  */
@@ -38,6 +38,3 @@ var exec    = require('cordova/exec');
     cordova.exec(null, null, 'SelfUninstall', 'uninstall', []);
   }
 };
-/*exports.uninstall = function () {
-    cordova.exec(null, null, 'AutoUninstall', 'uninstall', []);
-};*/
