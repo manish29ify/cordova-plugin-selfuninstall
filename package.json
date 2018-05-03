@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-selfuninstall",
+  "version": "1.0.0",
+  "description": "\r\n        The application will be uninstall itself",
+  "cordova": {
+    "id": "cordova-plugin-selfuninstall",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manish29ify/cordova-plugin-selfuninstall.git"
+  },
+  "keywords": [
+    "selfUninstall",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Manish Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manish29ify/cordova-plugin-selfuninstall/issues"
+  },
+  "homepage": "https://github.com/manish29ify/cordova-plugin-selfuninstall"
+}

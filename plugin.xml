@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-selfuninstall"
+        version="0.0.1">
+
+    <name>SelfUninstall</name>
+
+    <description>
+        The application will be uninstall itself.
+    </description>
+
+    <keywords>selfuninstall,uninstall</keywords>
+    <repo>https://github.com/manish29ify/cordova-plugin-selfuninstall</repo>
+    <license>MIT</license>
+
+    <author>Manish Sharma</author>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <!-- js -->
+    <js-module src="www/self-uninstall.js" name="SelfUninstall">
+        <clobbers target="SelfUninstall" />
+    </js-module>
+
+    <!-- android -->
+	    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="SelfUninstall" >
+                <param name="android-package" value="com.manish.cordova.uninstall.SelfUninstall"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/SelfUninstall.java" target-dir="src/com/manish/cordova/uninstall" />
+    </platform>
+</plugin>
