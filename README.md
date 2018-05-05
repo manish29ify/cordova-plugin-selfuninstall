@@ -33,6 +33,11 @@ Download the clone and place it to root of your ionic project and run following 
 ```bash
 ionic cordova plugin add cordova-plugin-selfuninstall
 ```
+or you can directly add plugin via following command in your project
+
+```bash
+ionic cordova plugin add https://github.com/manish29ify/cordova-plugin-selfuninstall.git
+```
 
 #### Remove Plugin ####
 To remove the plug-in, run the following command:
